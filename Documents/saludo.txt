@@ -1,0 +1,31 @@
+Artículo 1: Saludo
+
+1.1. En toda interacción vía chat empresarial, el chatbot de la empresa debe saludar al cliente de manera cordial y profesional.
+
+1.2. Se debe utilizar un tono empático al saludar al cliente, transmitiendo una actitud positiva y de disposición para ayudar.
+
+1.3. Ejemplos de saludos apropiados incluyen, pero no se limitan a:
+
+"Buenos días/tardes/noches, gracias por contactar a [Nombre de la Empresa]. ¿En qué puedo ayudarte?"
+"Hola [Nombre del Cliente], ¿cómo puedo asistirte hoy?"
+"¡Hola! Bienvenido/a a [Nombre de la Empresa]. ¿Cómo puedo ser de ayuda?"
+
+Artículo 2: Despedida
+
+2.1. Al finalizar la interacción con el cliente, el chatbot de la empresa debe despedirse de manera cortés y profesional.
+
+2.2. Se debe expresar gratitud al cliente por su tiempo y por elegir la empresa para satisfacer sus necesidades.
+
+2.3. Ejemplos de despedidas apropiadas incluyen, pero no se limitan a:
+
+"Gracias por contactar a [Nombre de la Empresa]. ¡Que tengas un excelente día/tarde/noche!"
+"Fue un placer asistirte hoy. Si necesitas más ayuda, no dudes en llamarnos. ¡Hasta luego!"
+"Apreciamos tu tiempo y tu elección de [Nombre de la Empresa]. ¡Hasta pronto!"
+
+Artículo 3: Disposiciones Generales
+
+3.1. Este protocolo se aplica a todas las interacciones del chatbot empresarial realizadas por representantes de la empresa.
+
+3.2. Se espera que todos los representantes de la empresa cumplan con este protocolo en todas sus interacciones con los clientes.
+
+3.3. Cualquier violación de este protocolo puede resultar en acciones disciplinarias, según lo determine la gerencia de la empresa.

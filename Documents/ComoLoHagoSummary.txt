@@ -1,0 +1,128 @@
+¿Cómo lo hago?
+	Si te preguntan "¿Cómo lo hago?" o algo relacionado, responde que tienes la capacidad de resolver una amplia gama de temas de soporte técnico y procedimientos internos de la organización. Puedes ayudar con la conexión de equipos a internet, guiar en la forma de reportar fallas relacionadas con la conexión a pos, y ofrecer asistencia con la configuración y manejo de impresoras.
+
+Autogestión POS
+Si te preguntan las posibles soluciones a  la "Autogestión POS" o algo relacionado, responde que puedes solucionar inquietudes relacionados con la gestión de contraseñas POS o pos, el intercambio de gaveta y el manejo de perfiles y el Plu multiplicador. 
+
+1- Equipos sin internet	
+	Si su computador no tiene conexión a internet, debe seguir los siguientes pasos:
+		- Paso 1: conectar el equipo al punto de conexión utilizando el cable LAN y no mediante el Cisco.
+		- Paso 2: Cuando ya esté conectado comunícate a la mesa 604-6049696 opción 1 y luego opción 333333 para validación del teléfono.
+	Si no logra la conexión llama a la mesa 604-6049696 opción 1 y luego opción 333333
+
+2- Mantenimiento
+	Todo electrodoméstico que presente falla se debe llamar a la mesa de mantenimiento al numero 601-2342275 (este numero estará disponible a partir del 11 de mayo) el número actual es 604-6049696  ext. 333333 opción 3
+
+3- Accesos a docuware
+	Los accesos de Docuware se deben solicitar por Interactiva, de la siguiente manera:
+		- Paso 1: Ingresar a interactiva por https://launcher.myapps.microsoft.com/api/signin/6aec96f9-6632-4e67-b620-0c9368a4fabe?tenantId=40f94963-1b34-45ce-a5fb-6f1fde2f1a27 o a través del portal de Red humana y hacer clic en la opción “Mis Herramientas" y luego seleccionar interactiva.
+		- Paso 2: En la página de inicio de Interactiva podrá encontrar reportar solicitud.
+		- Paso 3: Reportar solicitud: en esta opción podrá crear sus solicitudes.
+		- Paso 4: Hacer clic en la opción centro de servicios compartidos.
+		- Paso 5: Después gestión documental.
+		- Paso 6: Por ultimo selecciona Permisos o modificaciones en aplicativo Docuware y gestionas la solicitud.
+		- Paso 7: La solicitud será gestionada en 6 días hábiles.
+
+4- Cambio de aprobador en interactiva	
+	El cambio de aprobador en Interactiva se debe solicitar por Interactiva, de la siguiente manera:
+		- Paso 1. Ingresar a interactiva por https://launcher.myapps.microsoft.com/api/signin/6aec96f9-6632-4e67-b620-0c9368a4fabe?tenantId=40f94963-1b34-45ce-a5fb-6f1fde2f1a27 o a través del portal de Red humana y hacer clic en la opción “Mis Herramientas" y luego seleccionar interactiva
+		- Paso 2. En la página de inicio de Interactiva podrás encontrar reportar solicitud.
+		- Paso 3. Seleccionar la opción soporte Interactiva.
+		- Paso 4. Seleccionar centro de servicios compartidos.
+		- Paso 5. Seleccionar "Cambio de aprobador en interactiva".
+
+5- Actualización link interactiva	
+	El nuevo link de interactiva es: https://launcher.myapps.microsoft.com/api/signin/6aec96f9-6632-4e67-b620-0c9368a4fabe?tenantId=40f94963-1b34-45ce-a5fb-6f1fde2f1a27
+
+6- Como instalar complemento meta4	
+	La instlación del complemento se realiza de la siguiente manera:
+		- Paso 1: Abrir enlace de Meta4 http://mt4web/m4richwebnet.html?TYPE=PNET8 en internet Explorer o Microsoft Edge ahí se descarga el archivo.  
+		- Paso 2: Abrir al archivo. 
+		- Paso 3: Iniciar sesión con las credenciales de red
+
+7- Creación de Tarjeta de cambio o cambio de mercancía	
+	Al intentar realizar un Cambio de Mercancía de un PLU perteneciente a alguna de las siguientes sublíneas y/o Categorías, el sistema solicitará de manera obligatoria el NUT (Número Único de Transacción). Listas de Sublíneas y Categorías:
+		- Sublínea 201, Categorías: Todas
+		- Sublínea 52, Categorías: Todas
+		- Sublínea 53, Categorías: 5310
+		- Sublínea 54, Categorías: 5492, 5493 y 5497
+
+	Se debe tener en cuenta el Formato del NUT : El NUT es un número de 20 dígitos que se compone de la siguiente manera:
+		- 4 dígitos numéricos del año.
+		- 2 dígitos numéricos del mes (completar con ceros a la izquierda cuando sea necesario).
+		- 2 dígitos numéricos del día (completar con ceros a la izquierda cuando sea necesario).
+		- 4 dígitos de la dependencia (completar con ceros a la izquierda cuando sea necesario).
+		- 4 dígitos de la caja (completar con ceros a la izquierda cuando sea necesario).
+		- 4 dígitos de la transacción (completar con ceros a la izquierda cuando sea necesario)
+
+	Excepciones:
+		- Cuando la venta se realizó a través de .com, el NUT siempre será: 20230101003100010001. Actualizando el  número de la dependencia. Esta información fue enviada por correo electrónico el 19/12/2023 por Piedad Aristizábal.
+		- Cuando la venta se realizó a través del canal físico, el sistema no permitirá hacer cambios de productos cuya  fecha sea superior a 3 años. 
+
+8- Accesos en CMR - SALESFORCE (SIRO)	
+	Los accesos a SIRO se deben solicitar por Interactiva, de la siguiente manera:
+		- Paso1. Ingresar a interactiva por https://launcher.myapps.microsoft.com/api/signin/6aec96f9-6632-4e67-b620-0c9368a4fabe?tenantId=40f94963-1b34-45ce-a5fb-6f1fde2f1a27 o a través del portal de Red humana 
+		- Paso 2: Hacer clic en la opción “Mis herramientas""
+	 	- Paso 3:Seleccionar interactiva e ir a la opción de SIRO"
+
+9- Configurar impresora en el equipo	
+	La configuración de la impresora se debe realizar mediante los siguientes pasos:
+		- Paso1: Ingresar al panel de control en la opción “Dispositivos e impresoras” y Dar clic al Botón “Agregar una impresora”.
+		- Paso 2:Seleccionar donde la opción “La impresora deseada no está en la lista”
+	 	- Paso 3: Ubicar de acuerdo con la matriz el servidor y la cola de impresión en donde se encuentra configurada. Tener en cuenta: Los servidores de impresión tienen configuradas las impresoras de la siguiente manera:
+			* 296LPC01 Impresión Medellín – Costa
+			* 296LPC02 Impresión Bogotá – Cali
+			* 296LPC03 Cedis
+			* 296FLME01 Sedes Administrativas
+		- Paso 4: En el campo ""Seleccionar una impresora compartida por nombre"" se debe escribir el servidor que está en la columna “M” del Documento relacionado seguido de “\” y la cola de impresión que está en la columna “N” del Documento relacionado. EJEMPLO: \\296LPC02\766IMA01.
+		- Paso 5:  Después de terminar de elegir la cola, se da clic en Siguiente y se predetermina la cola de impresión en el equipo.
+
+10- Cambiar clave de puesto de pago POS o pos
+	Para cambiar la clave de cajero, solo lo puedes hacer si eres perfil 7, si así es, debes cambiar la clave por las opciones 1 - 4 - 3 - 1, luego de ingresar se debe digitar el usuario del cajero, posteriormente presionar enter, digitar la nueva contraseña de 4 dígitos y luego ENTER.  
+
+11- Cambiar contraseña usuario puesto de pago (POS o pos)
+	Para cambiar la contraseña de usuario del puesto de pago, debes:
+		- Ingresar el número de la cédula.
+		- Presionar la opción(1 -2).
+		- En PERFIL ingresar con asterisco ejemplo *1* 2* 3 * 4 * 5 * 7
+		- Presionar enter.
+		- Ingresar la contraseña, ejemplo: (1234)
+		- Tabular e ingresar el nombre del usuario.
+		- Presionar enter hasta el final.   
+
+12- Contraseña seguridad mejorada (POS o pos)
+ 	Por política la contraseña debe tener exactamente 8 dígitos, entre ellos 1 letra Mayúscula, 1 letra minúscula, 1 número y 1 carácter, los caracteres admitidos son : (){}#
+
+13- Intercambio de gaveta (POS o pos)
+	Para realizar el intercambio de gaveta, debes:
+		- Poner la llave.
+		- Presionar tecla “autorización"".
+		- Presionar tecla “No venta”
+		- Presionar tecla “PLU/Enter”. Sale el mensaje ”Llamar al  supervisor“.
+		- Presionar tecla “Borrar” una vez,  aparece “Negative total”, presionar teclas “autorización” + la clave del supervisor + presionar “enter”   
+
+14- Perfiles (POS o pos)  	
+	Para consultar los perfiles POS o pos ingrese a las opciones 1-4-3-5-1 en el pos
+
+15- Plu Multiplicador (POS o pos)
+	Para que sea agregado correctamente un PLU MULTIPLICADOR debes:
+		- crear una SOLICITUD en el catalogo de servicios en la siguiente RUTA: - Aplicaciones -  Procesamiento de Datos.
+		- En  OPCIÓN *Que desea Reportar, seleccionar ""Ejecución de procesos"" .
+		- En  OPCIÓN *Origen, seleccionar "Error Parametrización".
+
+16- Solicitar Tirilla de cliente (POS o pos)	
+	Primero debes visualizar el portal de Infopos donde se visualiza las tirillas de venta, si no la encuentras , debe ser gestionado por medio de Solicitud, lo puedes realizar a través de: 
+		- El portal de usuario por la opción  APLICACIONES - PROCESAMIENTO DE DATOS - OPCIÓN * Que desea reportar -  Desplegar la lista y seleccionar TIRILLA DE CLIENTE.
+		- A través del portal telefónico  604 604 96 96 conmutador del almacén (Todo a Medellín son llamadas nacionales e incrementa el costo) extensión 1 opción 333 333.
+
+17- Visualizar tirilla puesto de pago (POS o pos)
+ 	Para visualizar la tirilla de puesto de pago en POS o pos se debe ingresar al sistema pos o POS de su almacén en las opciones 1 – 8 – 5, Presionar la tecla TAB hasta localizar la opción CAJA.
+
+18- Augestión de contraseñas 
+	Si te preguntan "Augestión de contraseñas", "Augestión de Sinco" o algo relacionado, responde que tienes la capacidad de resolver inquietudes respecto al cambio de contraseñas configurar la aplicación de autenticathor o la configuración de doble factor en usuario Windows/red o usuario Sinco y red de usuario. 
+
+	Dependiendo el tipo servicio direccionas a los enlaces de las iguiente forma:
+
+		- Si tiene problemas en "Contraseña Usuario de Windows/red" visualiza el paso a paso en el siguiente video: https://saasistenteclic.blob.core.windows.net/conocimiento/articulos%20libres%20de%20conocimiento/Videos/VD.%20Configuraci%C3%B3n%20inicial%20%20Autenticaci%C3%B3n%20(MFA)%20-Met%C3%B3do%20de%20Telefono%20.mp4
+		- Para problemas en "red de usuario" o "usuario genérico" recuperación de usuario, contraseña, configuración de autenticathor o doble factor revisa el paso a paso en el siguiente articulo: https://saasistenteclic.blob.core.windows.net/conocimiento/instructivos/aplicaciones%20de%20negocio/IN.%20MFA.%20Desbloqueo%20y%20cambio%20de%20clave%20usuario%20gen%C3%A9ricos.pdf
+		- En el caso de "Usuario Sinco" de recuperación de contraseña, contraseña sinco o usuario bloqueado consulte la url: https://grupoexito-my.sharepoint.com/:b:/g/personal/integrateams_grupo-exito_com/EcKPwzx9TVpApiu6XkLji74B6SWq9WWpqMhddID_sw9fGA?e=oR7apS
