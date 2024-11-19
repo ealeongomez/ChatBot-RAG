@@ -5,7 +5,7 @@ from langchain_community.document_loaders import TextLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from get_embedding_function import get_embedding_function
 
-CHROMA_PATH = "./Chroma-ComoLoHagoSummary"
+CHROMA_PATH = "./Chroma-Constitucion"
 
 # ======================================================================
 # Functions
@@ -40,7 +40,7 @@ def calculate_chunk_ids(chunks):
 # ======================================================================
 
 # Load the document and split it into chunks
-loader = TextLoader("./Documents/ComoLoHagoSummary.txt")
+loader = TextLoader("./Documents/Constitucion.txt")
 documents = loader.load()
 
 # Split it into chunks

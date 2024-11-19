@@ -21,16 +21,20 @@ from get_embedding_function import get_embedding_function
 # ======================================================================
 # Constants
 # ======================================================================
-PAGE_TITLE = "Llama 3.2 Chat"
+PAGE_TITLE = "Chatbot RAG"
 PAGE_ICON = "🦙"
-SYSTEM_PROMPT = "Eres un Modelo de Lenguaje Natural de la compañía ARUS, llamado Clico."
+SYSTEM_PROMPT = "Eres un Modelo de Lenguaje Natural"
 DEFAULT_MODEL = "llama3.2:1b"
 AVAILABLE_MODELS = ["llama3.2:1b", "llama3.2:latest"]
 
-PROMPT_TEMPLATE = """Eres un Modelo de Lenguaje Natural de la compañía ARUS, llamado Clico.
-Tu misión es ayudar a los compañeros de trabajo de Exito a mejorar su experiencia y ayudarles. Utiliza los siguientes fragmentos de contexto para responder a la pregunta al final.
+PROMPT_TEMPLATE = """Eres un Modelo de Lenguaje Natural, llamado Clico.
+Tu misión es ayudar a los compañeros de trabajo a mejorar su experiencia y ayudarles. Utiliza los siguientes fragmentos de contexto para responder a la pregunta al final.
 
 {context}
+
+---
+
+Responda la pregunta según el contexto anterior: {question}
 """
 
 # ======================================================================
@@ -48,7 +52,7 @@ logger = logging.getLogger(__name__)
 # RAG
 # ================================================================================================
 
-CHROMA_PATH = '/home/ederleon/Documentos/Tutorials/Llama3/ollama-streamlit-langchain-chat-app/Chroma-ComoLoHagoSummary'
+CHROMA_PATH = './Chroma-Constitucion'
 
 embedding_function = get_embedding_function()
 
@@ -291,13 +295,26 @@ def handle_user_input(chain_with_history: RunnableWithMessageHistory) -> None:
 
             context = "\n\n---\n\n".join([doc.page_content for doc, _score in results])
 
-            logger.info(context)
+            prompt_template = ChatPromptTemplate.from_template(PROMPT_TEMPLATE)
+
+            # Without history
+            prompt_2 = prompt_template.format(context=context, question=prompt)
+
+
+            logger.info("----------------------------------------------------------------")
+
+            logger.info(prompt_2)
+
+            #logger.info(response.content)
             # -----------------------------------------------------------------------------------
 
             st.chat_message("ai").write(response.content)
             logger.info(response)
             update_sidebar_stats(response)
 
+
+# ================================================================================================ 
+# ================================================================================================
 
 def main() -> None:
     """
@@ -307,7 +324,10 @@ def main() -> None:
     creates the sidebar, and handles the chat interaction loop. It manages the
     chat history, processes user inputs, and displays AI responses.
     """
-    setup_page_config()
+
+    #setup_page_config()
+
+    # Parameter tuning ---------------------------------------------------------------------------
     initialize_session_state()
     create_sidebar()
 
