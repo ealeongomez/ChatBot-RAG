@@ -1,0 +1,47 @@
+,key,doc_count,datatype,@timestamp,name,value,host_metric_detail,host_ip,host_name
+0,vbogevokesp03,39041,uint,2024-11-15T17:25:53.000Z,Uptime (network),3270024.0,net,172.30.5.233,vbogevokesp03
+1,vbogevokesp04,38933,uint,2024-11-15T17:25:57.000Z,Uptime (hardware),5921683.0,hw,172.30.5.234,vbogevokesp04
+2,vbogevokesl01,36344,uint,2024-11-15T17:25:58.000Z,Interface veth22d938c9(): Duplex status,3.0,"['if', ' Duplex status']",172.30.5.202,vbogevokesl01
+3,vbogmoswebp02,34410,float,2024-11-15T17:25:55.000Z,ICMP loss,0.0,False,172.30.5.101,vbogmoswebp02
+4,vbogevokesp02,33033,uint,2024-11-15T17:25:46.000Z,Uptime (network),3270011.0,net,172.30.5.232,vbogevokesp02
+5,vbogevokesl04,32420,uint,2024-11-15T17:25:58.000Z,Total swap space,0.0,swap,172.30.5.205,vbogevokesl04
+6,vbogevokesp01,31068,float,2024-11-15T17:25:59.000Z,Interrupts per second,2874.9857549858757,cpu,172.30.5.231,vbogevokesp01
+7,Zabbix server,30508,float,2024-11-15T17:25:58.000Z,Number of processed not supported values per second,1.3978349848802187,False,127.0.0.1,Zabbix server
+8,vbogevokesl03,29570,float,2024-11-15T17:25:59.000Z,Load average (15m avg),0.61,cpu,172.30.5.204,vbogevokesl03
+9,vbogevokesl02,28419,uint,2024-11-15T17:25:59.000Z,SNMP agent availability,1.0,False,172.30.5.203,vbogevokesl02
+10,vbogdtlobsvp01,25473,float,2024-11-15T17:25:55.000Z,ICMP loss,0.0,False,172.30.5.131,vbogdtlobsvp01
+11,vbogdtlobsvp07,24366,uint,2024-11-15T17:25:50.000Z,Uptime (network),3269970.0,net,172.30.5.137,vbogdtlobsvp07
+12,vbogmosrasp01,24335,uint,2024-11-15T17:25:54.000Z,Interface vethab374ec2(): Duplex status,3.0,"['if', ' Duplex status']",172.30.5.34,vbogmosrasp01
+13,vbogmosintp01,23430,uint,2024-11-15T17:25:45.000Z,Uptime (network),3278431.0,net,172.30.5.100,vbogmosintp01
+14,vbogdtlobsvp02,23045,uint,2024-11-15T17:25:58.000Z,SNMP agent availability,1.0,False,172.30.5.132,vbogdtlobsvp02
+15,vbogdtlobsvp06,23009,uint,2024-11-15T17:25:59.000Z,Interface ens33(): Duplex status,3.0,"['if', ' Duplex status']",172.30.5.136,vbogdtlobsvp06
+16,vbogdtlobsvp03,22719,uint,2024-11-15T17:25:59.000Z,Available memory,16050905088.0,memory,172.30.5.133,vbogdtlobsvp03
+17,vbogdtlobsvp05,22279,float,2024-11-15T17:25:59.000Z,Load average (5m avg),0.2,cpu,172.30.5.135,vbogdtlobsvp05
+18,vbogdtlobsvp09,21937,uint,2024-11-15T17:25:47.000Z,SNMP agent availability,1.0,False,172.30.5.139,vbogdtlobsvp09
+19,vbogevokemp02,21290,uint,2024-11-15T17:25:50.000Z,SNMP agent availability,1.0,False,172.30.5.240,vbogevokemp02
+20,vbogevokemp01,21190,uint,2024-11-15T17:25:59.000Z,Uptime (hardware),5921687.0,hw,172.30.5.230,vbogevokemp01
+21,vbogevokeml01,20960,uint,2024-11-15T17:25:59.000Z,Uptime (network),3278375.0,net,172.30.5.201,vbogevokeml01
+22,vbogmosmonp02,20840,uint,2024-11-15T17:25:58.000Z,Uptime (hardware),5920769.0,hw,172.30.5.7,vbogmosmonp02
+23,vbogmoswebl01,19883,uint,2024-11-15T17:25:54.000Z,Uptime (hardware),5797387.0,hw,172.30.5.102,vbogmoswebl01
+24,vbogmosmonp03,19147,uint,2024-11-15T17:25:48.000Z,Uptime (network),3278095.0,net,172.30.5.70,vbogmosmonp03
+25,vbogmosgesp01,18919,float,2024-11-15T17:25:58.000Z,Interrupts per second,3051.638756416427,cpu,172.30.5.2,vbogmosgesp01
+26,vbogmosmonp01,18151,uint,2024-11-15T17:25:59.000Z,Total memory,12578467840.0,memory,172.30.5.250,vbogmosmonp01
+27,vbogmosk8mig02,17938,uint,2024-11-15T17:25:59.000Z,Total memory,12252782592.0,memory,172.30.5.212,vbogmosk8mig02
+28,vbogevolfsp01,17225,uint,2024-11-15T17:25:54.000Z,SNMP agent availability,1.0,False,172.30.5.199,vbogevolfsp01
+29,vbogmosrepp01,17183,uint,2024-11-15T17:25:59.000Z,Available memory,2553184256.0,memory,172.30.5.20,vbogmosrepp01
+30,vbogdtlobsvp08,17135,uint,2024-11-15T17:25:57.000Z,Uptime (network),3269971.0,net,172.30.5.138,vbogdtlobsvp08
+31,collector,17018,uint,2024-11-15T17:25:54.000Z,SNMP agent availability,1.0,False,172.30.5.246,collector
+32,vbogmoscomp01,16905,uint,2024-11-15T17:25:59.000Z,Memory (buffers),1183744.0,memory,172.30.5.60,vbogmoscomp01
+33,vbogmoswebp01,16555,float,2024-11-15T17:25:53.000Z,ICMP loss,0.0,False,172.30.5.40,vbogmoswebp01
+34,vbogmoststp01,16335,float,2024-11-15T17:25:59.000Z,Free swap space in %,0.7724776696732896,swap,172.30.5.249,vbogmoststp01
+35,vbogmosvbsp01,15912,uint,2024-11-15T17:25:59.000Z,Memory (buffers),12288.0,memory,172.30.5.41,vbogmosvbsp01
+36,vbogmosrasp02,15814,float,2024-11-15T17:25:59.000Z,CPU guest time,0.0,cpu,172.30.5.31,vbogmosrasp02
+37,vbogevoprxp01,15525,uint,2024-11-15T17:25:57.000Z,SNMP agent availability,1.0,False,172.30.5.241,vbogevoprxp01
+38,vbogmosmatp01,15255,uint,2024-11-15T17:25:56.000Z,Free swap space,2147479552.0,swap,172.30.5.50,vbogmosmatp01
+39,vbogmosnagp01,15065,uint,2024-11-15T17:25:55.000Z,Uptime (network),3278092.0,net,172.30.5.6,vbogmosnagp01
+40,vbogmosansp01,14933,float,2024-11-15T17:25:59.000Z,Interrupts per second,181.744373931415,cpu,172.30.5.251,vbogmosansp01
+41,vbogmosbkp01,14837,uint,2024-11-15T17:25:57.000Z,Free swap space,2143285248.0,swap,172.30.5.200,vbogmosbkp01
+42,vbogmosdevp01,14820,uint,2024-11-15T17:25:55.000Z,Uptime (hardware),5921651.0,hw,172.30.5.254,vbogmosdevp01
+43,vbogdtlobsvp04,14405,uint,2024-11-15T17:25:59.000Z,Uptime (network),3269667.0,net,172.30.5.134,vbogdtlobsvp04
+44,vbogmosipap01,13345,uint,2024-11-15T17:25:52.000Z,Uptime (network),3278435.0,net,172.30.5.252,vbogmosipap01
+45,vbogmosk8mig03,1260,uint,2024-11-15T17:25:08.000Z,SNMP agent availability,0.0,False,172.30.5.213,vbogmosk8mig03
