@@ -1,0 +1,279 @@
+{
+  "took" : 49,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 91,
+    "successful" : 91,
+    "skipped" : 0,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : {
+      "value" : 10000,
+      "relation" : "gte"
+    },
+    "max_score" : 2.0,
+    "hits" : [
+      {
+        "_index" : "host_metrics_5d682412e0a6e100062cc5cc-000006",
+        "_id" : "56ZuUJMBTYZ95M3z0NmY",
+        "_score" : 2.0,
+        "_source" : {
+          "host_ip" : "172.30.5.133",
+          "name" : "CPU utilization",
+          "value" : 5.282164326724029,
+          "host_name" : "vbogdtlobsvp03",
+          "tags" : [
+            "_grokparsefailure"
+          ],
+          "@timestamp" : "2024-11-21T20:32:47.000Z",
+          "type" : "host_metrics",
+          "host_metric_type" : "system",
+          "datatype" : "float",
+          "key_" : "system.cpu.util[snmp,0]",
+          "@version" : "1",
+          "host_metric_detail" : "cpu"
+        }
+      },
+      {
+        "_index" : "host_metrics_5d682412e0a6e100062cc5cc-000006",
+        "_id" : "8aZuUJMBTYZ95M3z0NmY",
+        "_score" : 2.0,
+        "_source" : {
+          "host_ip" : "172.30.5.201",
+          "name" : "CPU utilization",
+          "value" : 10.21425381041962,
+          "host_name" : "vbogevokeml01",
+          "tags" : [
+            "_grokparsefailure"
+          ],
+          "@timestamp" : "2024-11-21T20:32:49.000Z",
+          "type" : "host_metrics",
+          "host_metric_type" : "system",
+          "datatype" : "float",
+          "key_" : "system.cpu.util[snmp,0]",
+          "@version" : "1",
+          "host_metric_detail" : "cpu"
+        }
+      },
+      {
+        "_index" : "host_metrics_5d682412e0a6e100062cc5cc-000006",
+        "_id" : "KqZuUJMBTYZ95M3z0NqY",
+        "_score" : 2.0,
+        "_source" : {
+          "host_ip" : "172.30.5.131",
+          "name" : "Memory utilization",
+          "value" : 29.665004607588298,
+          "host_name" : "vbogdtlobsvp01",
+          "tags" : [
+            "_grokparsefailure"
+          ],
+          "@timestamp" : "2024-11-21T20:32:50.000Z",
+          "type" : "host_metrics",
+          "host_metric_type" : "vm",
+          "datatype" : "float",
+          "key_" : "vm.memory.util[snmp]",
+          "@version" : "1",
+          "host_metric_detail" : "memory"
+        }
+      },
+      {
+        "_index" : "host_metrics_5d682412e0a6e100062cc5cc-000006",
+        "_id" : "WKZuUJMBTYZ95M3z0Nqt",
+        "_score" : 2.0,
+        "_source" : {
+          "host_ip" : "172.30.5.200",
+          "name" : "Memory utilization",
+          "value" : 28.104884899026477,
+          "host_name" : "vbogmosbkp01",
+          "tags" : [
+            "_grokparsefailure"
+          ],
+          "@timestamp" : "2024-11-21T20:32:48.000Z",
+          "type" : "host_metrics",
+          "host_metric_type" : "vm",
+          "datatype" : "float",
+          "key_" : "vm.memory.util[snmp]",
+          "@version" : "1",
+          "host_metric_detail" : "memory"
+        }
+      },
+      {
+        "_index" : "host_metrics_5d682412e0a6e100062cc5cc-000006",
+        "_id" : "cKZuUJMBTYZ95M3z0Nqt",
+        "_score" : 2.0,
+        "_source" : {
+          "host_ip" : "172.30.5.240",
+          "name" : "Memory utilization",
+          "value" : 33.4508321659042,
+          "host_name" : "vbogevokemp02",
+          "tags" : [
+            "_grokparsefailure"
+          ],
+          "@timestamp" : "2024-11-21T20:32:49.000Z",
+          "type" : "host_metrics",
+          "host_metric_type" : "vm",
+          "datatype" : "float",
+          "key_" : "vm.memory.util[snmp]",
+          "@version" : "1",
+          "host_metric_detail" : "memory"
+        }
+      },
+      {
+        "_index" : "host_metrics_5d682412e0a6e100062cc5cc-000006",
+        "_id" : "cqZuUJMBTYZ95M3z0Nqt",
+        "_score" : 2.0,
+        "_source" : {
+          "host_ip" : "172.30.5.6",
+          "name" : "ICMP response time",
+          "value" : 3.4E-4,
+          "host_name" : "vbogmosnagp01",
+          "tags" : [
+            "_grokparsefailure"
+          ],
+          "@timestamp" : "2024-11-21T20:32:47.000Z",
+          "type" : "host_metrics",
+          "datatype" : "float",
+          "key_" : "icmppingsec",
+          "@version" : "1"
+        }
+      },
+      {
+        "_index" : "host_metrics_5d682412e0a6e100062cc5cc-000006",
+        "_id" : "dKZuUJMBTYZ95M3z0Nqt",
+        "_score" : 2.0,
+        "_source" : {
+          "host_ip" : "172.30.5.34",
+          "name" : "ICMP response time",
+          "value" : 2.663333333333333E-4,
+          "host_name" : "vbogmosrasp01",
+          "tags" : [
+            "_grokparsefailure"
+          ],
+          "@timestamp" : "2024-11-21T20:32:47.000Z",
+          "type" : "host_metrics",
+          "datatype" : "float",
+          "key_" : "icmppingsec",
+          "@version" : "1"
+        }
+      },
+      {
+        "_index" : "host_metrics_5d682412e0a6e100062cc5cc-000006",
+        "_id" : "iaZuUJMBTYZ95M3z0Nqt",
+        "_score" : 2.0,
+        "_source" : {
+          "host_ip" : "172.30.5.34",
+          "name" : "CPU utilization",
+          "value" : 10.879083581289592,
+          "host_name" : "vbogmosrasp01",
+          "tags" : [
+            "_grokparsefailure"
+          ],
+          "@timestamp" : "2024-11-21T20:32:52.000Z",
+          "type" : "host_metrics",
+          "host_metric_type" : "system",
+          "datatype" : "float",
+          "key_" : "system.cpu.util[snmp,0]",
+          "@version" : "1",
+          "host_metric_detail" : "cpu"
+        }
+      },
+      {
+        "_index" : "host_metrics_5d682412e0a6e100062cc5cc-000006",
+        "_id" : "l6ZuUJMBTYZ95M3z0Nqt",
+        "_score" : 2.0,
+        "_source" : {
+          "host_ip" : "172.30.5.199",
+          "name" : "Memory utilization",
+          "value" : 15.81222105238482,
+          "host_name" : "vbogevolfsp01",
+          "tags" : [
+            "_grokparsefailure"
+          ],
+          "@timestamp" : "2024-11-21T20:32:53.000Z",
+          "type" : "host_metrics",
+          "host_metric_type" : "vm",
+          "datatype" : "float",
+          "key_" : "vm.memory.util[snmp]",
+          "@version" : "1",
+          "host_metric_detail" : "memory"
+        }
+      },
+      {
+        "_index" : "host_metrics_5d682412e0a6e100062cc5cc-000006",
+        "_id" : "mKZuUJMBTYZ95M3z0Nqt",
+        "_score" : 2.0,
+        "_source" : {
+          "host_ip" : "172.30.5.246",
+          "name" : "Memory utilization",
+          "value" : 40.78293237216842,
+          "host_name" : "collector",
+          "tags" : [
+            "_grokparsefailure"
+          ],
+          "@timestamp" : "2024-11-21T20:32:53.000Z",
+          "type" : "host_metrics",
+          "host_metric_type" : "vm",
+          "datatype" : "float",
+          "key_" : "vm.memory.util[snmp]",
+          "@version" : "1",
+          "host_metric_detail" : "memory"
+        }
+      }
+    ]
+  },
+  "aggregations" : {
+    "cpu_warning_hosts" : {
+      "doc_count" : 5,
+      "hosts" : {
+        "doc_count_error_upper_bound" : 0,
+        "sum_other_doc_count" : 0,
+        "buckets" : [
+          {
+            "key" : "vbogmosrepp01",
+            "doc_count" : 5,
+            "most_recent" : {
+              "hits" : {
+                "total" : {
+                  "value" : 5,
+                  "relation" : "eq"
+                },
+                "max_score" : null,
+                "hits" : [
+                  {
+                    "_index" : "host_metrics_5d682412e0a6e100062cc5cc-000007",
+                    "_id" : "zLaVUJMBTYZ95M3zO4NB",
+                    "_score" : null,
+                    "_source" : {
+                      "host_ip" : "172.30.5.20",
+                      "value" : 85.11071405868678,
+                      "@timestamp" : "2024-11-21T21:11:20.000Z"
+                    },
+                    "sort" : [
+                      1732223480000
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "total_hosts" : {
+      "value" : 46
+    },
+    "overall_cpu_usage" : {
+      "doc_count" : 9380,
+      "avg_cpu" : {
+        "value" : 13.017913786666217
+      }
+    },
+    "overall_memory_usage" : {
+      "doc_count" : 9568,
+      "avg_memory" : {
+        "value" : 37.58302509974078
+      }
+    }
+  }
+}
