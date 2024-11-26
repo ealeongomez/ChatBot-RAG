@@ -1,3 +1,12 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Nov 25 08:15:11 2024
+
+@author: E. A. León-Gómez
+"""
+
+
 import pandas as pd
 import warnings, json 
 
