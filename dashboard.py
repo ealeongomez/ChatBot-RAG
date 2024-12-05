@@ -30,6 +30,7 @@ warnings.filterwarnings("ignore")
 #file_path = "./data/train.csv"
 file_path = "./data/synthetic-dataSet.csv"
 df = pd.read_csv(file_path, index_col="timestamp")
+#df = pd.read_csv(file_path)
 
 # Crear el modelo de lenguaje
 LLM_OpenAI = ChatOpenAI(model="gpt-3.5-turbo", temperature=0, max_tokens=None, timeout=None, max_retries=2, api_key=config.api_key)
