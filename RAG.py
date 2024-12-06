@@ -160,27 +160,9 @@ def setup_page_config() -> None:
     st.markdown("##### Chat")
 
 # ------------------------------------------------------------------------------------------------
-
-def handle_user_input(chain_with_history: RunnableWithMessageHistory) -> None:
-    """
-    Handle user input and generate AI response.
-
-    This function processes the user's input, sends it to the AI model,
-    and displays the response in the Streamlit chat interface.
-
-    Args:
-        chain_with_history (RunnableWithMessageHistory): The chat chain with history management.
-    """
-    if prompt := st.chat_input("Pregúntale a Turing..."):
-        st.chat_message("human").write(prompt)
-
-        with st.spinner("Pensando..."):
-            config = {"configurable": {"session_id": "any"}}
-            response = chain_with_history.invoke({"input": prompt}, config)
-            
-            #logger.info({"input": prompt}, config)
-            logger.info(prompt)
-
+ """ DATA BASES
+    
+    - ChromaDB
             # Search in database ----------------------------------------------------------------
             results = db.similarity_search_with_score(prompt, k=1)
             if len(results) == 0:
@@ -201,6 +183,32 @@ def handle_user_input(chain_with_history: RunnableWithMessageHistory) -> None:
 
             #logger.info(response.content)
             # -----------------------------------------------------------------------------------
+ 
+ """
+
+
+
+# ------------------------------------------------------------------------------------------------
+
+def handle_user_input(chain_with_history: RunnableWithMessageHistory) -> None:
+    """
+    Handle user input and generate AI response.
+
+    This function processes the user's input, sends it to the AI model,
+    and displays the response in the Streamlit chat interface.
+
+    Args:
+        chain_with_history (RunnableWithMessageHistory): The chat chain with history management.
+    """
+    if prompt := st.chat_input("Pregúntale a Turing..."):
+        st.chat_message("human").write(prompt)
+
+        with st.spinner("Pensando..."):
+            config = {"configurable": {"session_id": "any"}}
+            response = chain_with_history.invoke({"input": prompt}, config)
+            
+            #logger.info({"input": prompt}, config)
+            logger.info(prompt)
 
             st.chat_message("ai").write(response.content)
             logger.info(response)
