@@ -160,31 +160,30 @@ def setup_page_config() -> None:
     st.markdown("##### Chat")
 
 # ------------------------------------------------------------------------------------------------
- """ DATA BASES
-    
-    - ChromaDB
-            # Search in database ----------------------------------------------------------------
-            results = db.similarity_search_with_score(prompt, k=1)
-            if len(results) == 0:
-                print(f"Unable to find matching results.")
-
-            context = "\n\n---\n\n".join([doc.page_content for doc, _score in results])
-
-            prompt_template = ChatPromptTemplate.from_template(PROMPT_TEMPLATE)
-
-            # Without history
-            prompt_2 = prompt_template.format(context=context, question=prompt)
-
-            logger.info("----------------------------------------------------------------")
-
-            logger.info(prompt_template)
-
-            logger.info(prompt_2)
-
-            #logger.info(response.content)
-            # -----------------------------------------------------------------------------------
  
- """
+#  DATA BASES   
+#     - ChromaDB
+#             # Search in database ----------------------------------------------------------------
+#             results = db.similarity_search_with_score(prompt, k=1)
+#             if len(results) == 0:
+#                 print(f"Unable to find matching results.")
+
+#             context = "\n\n---\n\n".join([doc.page_content for doc, _score in results])
+
+#             prompt_template = ChatPromptTemplate.from_template(PROMPT_TEMPLATE)
+
+#             # Without history
+#             prompt_2 = prompt_template.format(context=context, question=prompt)
+
+#             logger.info("----------------------------------------------------------------")
+
+#             logger.info(prompt_template)
+
+#             logger.info(prompt_2)
+
+#             #logger.info(response.content)
+#             # -----------------------------------------------------------------------------------
+ 
 
 
 
