@@ -6,7 +6,6 @@ Created on Thu Dec 5 14:34:00 2024
 @author: E. A. León-Gómez
 """
 
-
 import logging
 import streamlit as st
 from typing import Dict, Any
@@ -18,6 +17,9 @@ from langchain_core.runnables.history import RunnableWithMessageHistory
 from langchain_ollama import ChatOllama
 from langchain_community.vectorstores import Chroma
 
+from langsmith import traceable
+from dotenv import load_dotenv
+
 from get_embedding_function import get_embedding_function
 
 logging.basicConfig(
@@ -27,6 +29,7 @@ logging.basicConfig(
 
 logger = logging.getLogger(__name__)
 
+load_dotenv(dotenv_path="./Tutorials/.env", override=True)
 
 # ================================================================================================
 # Constants
