@@ -8,6 +8,7 @@ Created on Thu Dec 5 14:34:00 2024
 
 import logging
 import streamlit as st
+from typing import Union
 from typing import Dict, Any
 
 from langchain import PromptTemplate
@@ -16,6 +17,9 @@ from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_core.runnables.history import RunnableWithMessageHistory
 from langchain_ollama import ChatOllama
 from langchain_community.vectorstores import Chroma
+from langchain_openai import ChatOpenAI
+
+from Tutorials.keys import config
 
 from langsmith import traceable
 from dotenv import load_dotenv
@@ -39,7 +43,7 @@ PAGE_ICON = "🦙"
 DEFAULT_MODEL = "llama3.2:1b"
 DEFAULT_DB = "Chroma"
 
-AVAILABLE_MODELS = ["llama3.2:1b", "llama3.2:latest"]
+AVAILABLE_MODELS = ["llama3.2:1b", "gpt-3.5-turbo"]
 AVAILABLE_DB = ["Chroma", "Elastic Search"]
 
 temperature = 0.5
@@ -88,7 +92,6 @@ def create_sidebar() -> None:
             help="Seleccione la base de datos",
         )
 
-
         #display_model_stats()
 
 # ------------------------------------------------------------------------------------------------
@@ -105,24 +108,35 @@ def display_model_stats() -> None:
 # Model 
 # ================================================================================================ 
 
-
-def create_chat_model() -> ChatOllama:
+def create_chat_model() -> object:
     """
-    Create and configure a ChatOllama instance based on the current session state.
+    Create and configure a chat model instance based on the current session state.
 
     Returns:
-        ChatOllama: A configured ChatOllama instance for use in the chat application.
+        object: A configured chat model instance for use in the chat application.
     """
-    return ChatOllama(model=st.session_state.model,temperature=temperature,)
+    if st.session_state.model == "llama3.2:1b":
+        return ChatOllama(model=st.session_state.model, temperature=temperature)
+    elif st.session_state.model == "gpt-3.5-turbo":
+        return ChatOpenAI(
+            model=st.session_state.model,
+            temperature=temperature,
+            max_tokens=None,
+            timeout=None,
+            max_retries=2,
+            api_key=config.api_key
+        )
+    else:
+        raise ValueError(f"Unsupported model: {st.session_state.model}")
 
 # ------------------------------------------------------------------------------------------------
 
-def create_chat_chain(chat_model: ChatOllama):
+def create_chat_chain(chat_model: Union[ChatOllama, ChatOpenAI]):
     """
     Create a chat chain using the provided chat model and system prompt.
 
     Args:
-        chat_model (ChatOllama): The ChatOllama instance to use in the chain.
+        chat_model (Union[ChatOllama, ChatOpenAI]): The chat model instance to use in the chain.
 
     Returns:
         A chat chain combining the system prompt, chat history, and user input.
@@ -136,13 +150,12 @@ def create_chat_chain(chat_model: ChatOllama):
         ]
     )
 
-    # Prompt ----------------------------------------------------
+    # Prompt logging -------------------------------------------
     logger.info(f"\n\t")
     logger.info(prompt.messages[0])
-    #logger.info(f"prompt: {prompt.messages[0].format().content}")
-    #logger.info(f"{input}")
 
     return prompt | chat_model
+
 
 
 # ------------------------------------------------------------------------------------------------
@@ -187,8 +200,6 @@ def setup_page_config() -> None:
 #             #logger.info(response.content)
 #             # -----------------------------------------------------------------------------------
  
-
-
 
 # ------------------------------------------------------------------------------------------------
 
