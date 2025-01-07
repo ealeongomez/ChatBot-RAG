@@ -157,7 +157,6 @@ def create_chat_chain(chat_model: Union[ChatOllama, ChatOpenAI]):
     return prompt | chat_model
 
 
-
 # ------------------------------------------------------------------------------------------------
 
 def setup_page_config() -> None:
